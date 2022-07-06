@@ -4,7 +4,7 @@ body {
 }
 .header {
   height: 100vh;
-  background-image: url(images/donation6.jpg);
+  background-image: url(images/donation9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -17,10 +17,10 @@ body {
 }
 .header h1 {
   font-size: 60px;
-  color: white;
+  color: rgb(255, 0, 0);
 }
 .header p {
-  color: white;
+  color: rgb(255, 230, 5);
   font-size: 20px;
   padding-bottom: 40px;
 }
@@ -39,6 +39,9 @@ body {
 }
 .donate-amt {
   text-align: center;
+}
+.donate-amt h1 {
+  font-size: 40px;
 }
 .amt-value {
   display: flex;
@@ -59,6 +62,7 @@ input {
   border-left: none;
   border-right: none;
   color: grey;
+  text-align: center;
 }
 .gap {
   height: 20px;
@@ -68,13 +72,13 @@ input {
   padding: 40px 50px;
   margin: 0 auto;
 }
-.middle{
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 40px;
+.middle {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
-.middle h1{
-    font-size: 40px;
+.middle h1 {
+  font-size: 40px;
 }
 .plan {
   display: flex;
@@ -98,37 +102,53 @@ input {
   padding: 40px 15px;
   background-color: lightyellow;
 }
-.update{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+.work {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
 }
-.email-box{
-    width: 100%;
-    padding: 40px 0px;
-    background-color: lightgray;
-    margin-bottom: 40px;
+.work p {
+  text-align: justify;
+  padding-right: 30px;
 }
-input{
-    padding: 20px 10px;
-    width: 60%;
+.work img {
+  width: 40%;
 }
-button{
-    background-color: red;
-    border: 0;
-    padding: 20px 0;
-    width: 20%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: pointer;
+#info-button {
+  margin-top: 20px;
+  padding: 5px 40px;
 }
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px 0;
+.update {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
-footer h1{
-    font-family: 'Pacifico', cursive;
-    color: red;
+.email-box {
+  width: 100%;
+  padding: 40px 0px;
+  background-color: lightgray;
+  margin-bottom: 40px;
+}
+input {
+  padding: 20px 10px;
+  width: 60%;
+}
+button {
+  background-color: red;
+  border: 0;
+  padding: 20px 0;
+  width: 20%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+footer h1 {
+  font-family: "Pacifico", cursive;
+  color: red;
 }
