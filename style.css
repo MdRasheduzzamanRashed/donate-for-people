@@ -1,0 +1,100 @@
+body {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+}
+.header {
+  height: 100vh;
+  background-image: url(images/donation6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: 0px;
+}
+.header-text {
+  width: 80%;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+.header h1 {
+  font-size: 60px;
+  color: white;
+}
+.header p {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.link-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.donate-sec {
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.donate-amt {
+  text-align: center;
+}
+.amt-value {
+  display: flex;
+}
+.amt-value h3 {
+  font-size: 30px;
+  padding: 15px 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+#active {
+  background-color: rgba(255, 2, 2, 0.384);
+  border: 3px solid red;
+}
+input {
+  padding: 20px 200px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: grey;
+}
+.gap {
+  height: 20px;
+}
+.donate-plan {
+  width: 80%;
+  padding: 40px 50px;
+  margin: 0 auto;
+}
+.middle{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.middle h1{
+    font-size: 40px;
+}
+.plan {
+  display: flex;
+}
+.plan-info1 {
+  width: 30%;
+  padding: 40px 15px;
+  float: left;
+  background-color: lightblue;
+}
+.plan-info2 {
+  width: 30%;
+  margin: 0 2.5%;
+  padding: 40px 15px;
+  float: left;
+  background-color: lightpink;
+}
+.plan-info3 {
+  width: 30%;
+  float: right;
+  padding: 40px 15px;
+  background-color: lightyellow;
+}
