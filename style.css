@@ -98,6 +98,30 @@ input {
   padding: 40px 15px;
   background-color: lightyellow;
 }
+.update{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.email-box{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: lightgray;
+    margin-bottom: 40px;
+}
+input{
+    padding: 20px 10px;
+    width: 60%;
+}
+button{
+    background-color: red;
+    border: 0;
+    padding: 20px 0;
+    width: 20%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
 footer{
     background-color: black;
     color: white;
