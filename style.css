@@ -98,3 +98,13 @@ input {
   padding: 40px 15px;
   background-color: lightyellow;
 }
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+footer h1{
+    font-family: 'Pacifico', cursive;
+    color: red;
+}
